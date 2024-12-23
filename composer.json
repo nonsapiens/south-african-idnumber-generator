@@ -6,8 +6,7 @@
     "autoload": {
         "psr-4": {
             "Nonsapiens\\SouthAfricanIdNumberFaker\\": "src/"
-        },
-        "files": ["src/rsaIdNumberHelper.php"]
+        }
     },
     "authors": [
         {

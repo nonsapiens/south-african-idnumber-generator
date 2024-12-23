@@ -3,7 +3,7 @@
 namespace Nonsapiens\SouthAfricanIdNumberFaker\Providers;
 
 use Faker\Factory;
-use Generator;
+use Faker\Generator;
 use Illuminate\Support\ServiceProvider;
 use Nonsapiens\SouthAfricanIdNumberFaker\Faker\SouthAfricanIdNumberFaker;
 
