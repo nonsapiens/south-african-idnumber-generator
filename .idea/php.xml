@@ -1,47 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+  <component name="MessDetectorOptionsConfiguration">
+    <option name="transferred" value="true" />
   </component>
-  <component name="ChangeListManager">
-    <list default="true" id="caf5405d-e066-4620-aa0d-4760cbe224c7" name="Changes" comment="Validation of RSA ID numbers included, and updated readme.md">
-      <change afterPath="$PROJECT_DIR$/.idea/blade.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/laravel-idea-personal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/laravel-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/RsaIdNumberException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/south-african-id-number-faker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/south-african-id-number-faker.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RsaIdNumber.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/RsaIdNumber.php" afterDir="false" />
-    </list>
-    <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-    <option name="LAST_RESOLUTION" value="IGNORE" />
+  <component name="PHPCSFixerOptionsConfiguration">
+    <option name="transferred" value="true" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
-    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
+  <component name="PHPCodeSnifferOptionsConfiguration">
+    <option name="highlightLevel" value="WARNING" />
+    <option name="transferred" value="true" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;stuartsebenza&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;git@github.com:nonsapiens/south-african-idnumber-generator.git&quot;,
-    &quot;accountId&quot;: &quot;f5572086-de83-4c44-95b3-a6e0ff1c59cc&quot;
-  }
-}</component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpIncludePathManager">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/psr/http-client" />
       <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
@@ -160,70 +129,13 @@
       <path value="$PROJECT_DIR$/vendor/psr/log" />
     </include_path>
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 5
-}</component>
-  <component name="ProjectId" id="2r5Al07LjmP6yYZR3zch25IE7qn" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.2">
+    <option name="suggestChangeDefaultLanguageLevel" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/stuartsteedman/Development/packages/south-african-id-number-faker",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "php.override.implement.member.chooser.php.doc": "NONE",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PS-241.19416.23" />
-        <option value="bundled-php-predefined-ba97393d7c68-48a1a656d44e-com.jetbrains.php.sharedIndexes-PS-241.19416.23" />
-        <option value="php-dragonmantank_cron_expression-37cbfb0ca1b6-b8bc3a29" />
-        <option value="php-egulias_email_validator-37cbfb0ca1b6-51edd7f1" />
-        <option value="php-guzzlehttp_guzzle-37cbfb0ca1b6-c7d7fcac" />
-        <option value="php-league_flysystem-37cbfb0ca1b6-6ed0ef08" />
-        <option value="php-mockery_mockery-37cbfb0ca1b6-0d788a5e" />
-        <option value="php-monolog_monolog-37cbfb0ca1b6-ed6d1630" />
-        <option value="php-nette_utils-37cbfb0ca1b6-43691408" />
-        <option value="php-phar_io_version-37cbfb0ca1b6-97401194" />
-        <option value="php-symfony_finder-37cbfb0ca1b6-18267425" />
-        <option value="php-symfony_http_foundation-37cbfb0ca1b6-dbedee6a" />
-        <option value="php-symfony_process-37cbfb0ca1b6-0c45b194" />
-        <option value="php-symfony_routing-37cbfb0ca1b6-2eb007bc" />
-        <option value="php-symfony_string-37cbfb0ca1b6-6da9c235" />
-        <option value="php-symfony_yaml-37cbfb0ca1b6-61027ce4" />
-        <option value="php-vlucas_phpdotenv-37cbfb0ca1b6-caa2a1eb" />
-        <option value="php-voku_portable_ascii-37cbfb0ca1b6-c21a5494" />
-      </set>
-    </attachedChunks>
+  <component name="PhpStanOptionsConfiguration">
+    <option name="transferred" value="true" />
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="caf5405d-e066-4620-aa0d-4760cbe224c7" name="Changes" comment="" />
-      <created>1735838709759</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1735838709759</updated>
-      <workItem from="1735838711108" duration="370000" />
-      <workItem from="1735839100881" duration="930000" />
-    </task>
-    <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Validation of RSA ID numbers included, and updated readme.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Validation of RSA ID numbers included, and updated readme.md" />
+  <component name="PsalmOptionsConfiguration">
+    <option name="transferred" value="true" />
   </component>
 </project>

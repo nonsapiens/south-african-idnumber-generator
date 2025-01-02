@@ -1,6 +1,7 @@
 # RSA (South African) ID Number Generator
 
 This PHP/Laravel Faker library generates valid South African ID numbers, adhering to the 13-digit format specified by the Department of Home Affairs.
+It is also able to validate RSA ID numbers, and provide information about the ID number holder.
 
 The generated ID numbers include the date of birth, gender, citizenship status, and a checksum digit for validation.
 
@@ -20,7 +21,7 @@ The generated ID numbers include the date of birth, gender, citizenship status, 
 composer require nonsapiens/south-african-id-number-faker
 ```
 
-## Usage
+## Usage (Generation)
 
 ### With Faker
 ```php
@@ -78,6 +79,35 @@ $idNumber1 = RsaIdNumber::generateRsaIdNumber($dateOfBirth, 'm', true);
 
 // Example: Generate for a female, random date of birth, non-citizen
 $idNumber2 = RsaIdNumber::generateRsaIdNumber(null, 'f', false);
+```
+
+## Usage (validation)
+
+### Using the helper class
+```php
+$idNumber = new RsaIdNumber('8208015009088');     # This will also accept ID numbers with spaces
+if ($idNumber->isValid()) {
+    echo "This ID number is {$idNumber->gender()}";
+} else {
+    echo 'Invalid ID number';
+}
+```
+
+Other validation features include:
+
+```php
+$idNumber->dateOfBirth();
+$idNumber->age();
+$idNumber->isAdult();
+$idNumber->isCitizen();
+$idNumber->isPermanentResident();
+```
+
+You can also have the ID number formatted for easier reading:
+
+```php
+$idNumber = new RsaIdNumber('7504220045086');
+echo $idNumber->toNatural();     // Echoes as "750422 0045 08 6"
 ```
 
 ## License
