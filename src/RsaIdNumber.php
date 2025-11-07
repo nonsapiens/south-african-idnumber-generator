@@ -26,7 +26,10 @@ class RsaIdNumber implements \Stringable
         # Validate $this->rsaIdNumber
         // Ensure the ID number is exactly 13 digits long
         if (!preg_match('/^\d{13}$/', $this->rsaIdNumber)) {
-            return 'ID number must be exactly 13 digits.';
+            if ($throwExceptions) {
+                throw new RsaIdNumberException('ID number must be exactly 13 digits.');
+            }
+            return false;
         }
 
         // Extract components of the ID number

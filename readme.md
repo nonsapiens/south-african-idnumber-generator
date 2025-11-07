@@ -83,6 +83,23 @@ $idNumber2 = RsaIdNumber::generateRsaIdNumber(null, 'f', false);
 
 ## Usage (validation)
 
+### Laravel validation rule
+You can validate incoming request data using the built-in `rsaidnumber` rule:
+
+```php
+$request->validate([
+    'rsaIdNumber' => 'required|string|rsaidnumber',
+]);
+```
+
+If validation fails, Laravel will return the default message:
+
+```
+The rsaIdNumber must be a valid South African ID number.
+```
+
+You may customize this message in your localization files under `validation.custom.rsaidnumber`.
+
 ### Using the helper class
 ```php
 $idNumber = new RsaIdNumber('8208015009088');     # This will also accept ID numbers with spaces
